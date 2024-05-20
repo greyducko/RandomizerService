@@ -36,6 +36,7 @@ import requests
 minimum = 5
 maximum = 20
 response = requests.get(f"http://127.0.0.1:8000/random?minimum={minimum}&maximum={maximum}")
-output = response.json()
-print(output)
+response = response.json()
+randomNumber = (response["randomNumber"])
+print(randomNumber)
 ```

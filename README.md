@@ -1,5 +1,5 @@
 # RandomizerService
-Randomizer microservice that returns a random integer between the minimum and maximum parameters
+Randomizer microservice that returns a random integer between the minimum and maximum parameters (also integers).
 
 # How to run the microservice
 1. Clone and navigate to the directory in your terminal.
@@ -7,7 +7,7 @@ Randomizer microservice that returns a random integer between the minimum and ma
 ```
 py -m uvicorn RandomizerService:RandomizerService --reload
 ```
-3. By default, it runs on localhost 127.0.0.1:8000. 
+3. By default, it runs on the host and port 127.0.0.1:8000. 
 
 # To programmatically REQUEST data:
 1. Make a request to the following URI with a minimum and maximum parameter:

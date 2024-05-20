@@ -10,13 +10,12 @@ py -m uvicorn RandomizerService:RandomizerService --reload
 3. By default, it runs on localhost 127.0.0.1:8000. 
 
 # To programmatically REQUEST data:
-1. Make a request to the following URI with a minimum and maximum parameter: 
-
+1. Make a request to the following URI with a minimum and maximum parameter:
 ```
 http://127.0.0.1:8000/random?minimum={minimum}&maximum={maximum}
 ```
+Note: You may need to change the host/port if not running with default settings.
 
-Note: You may need to change the host/port if not running with default settings. 
 2. The following is an example of how to make a request in Python:
 ```
 import requests

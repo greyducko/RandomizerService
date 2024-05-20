@@ -11,9 +11,11 @@ py -m uvicorn RandomizerService:RandomizerService --reload
 
 # To programmatically REQUEST data:
 1. Make a request to the following URI with a minimum and maximum parameter: 
+
 ```
 http://127.0.0.1:8000/random?minimum={minimum}&maximum={maximum}
 ```
+
 Note: You may need to change the host/port if not running with default settings. 
 2. The following is an example of how to make a request in Python:
 ```

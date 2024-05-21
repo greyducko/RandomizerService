@@ -53,3 +53,6 @@ else:
 Sample response where there is no error: {'randomNumber': 8}
 Sample response when minimum and/or maximum parameter was not an integer: {'Error': 'Please ensure the parameters minimum and maximum are both integers.'}
 ```
+
+# UML Sequence Diagram
+![img.png](img.png)
